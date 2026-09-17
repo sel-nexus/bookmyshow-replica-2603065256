@@ -1,0 +1,2 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { color: #241418; background: #fff9f8; } * { box-sizing: border-box; } body { margin: 0; font-family: Arial, sans-serif; } button,input { font: inherit; } button:focus-visible,input:focus-visible { outline: 3px solid #d82d3d; outline-offset: 2px; } @media (prefers-reduced-motion: reduce) { * { transition-duration: 0.01ms !important; } }

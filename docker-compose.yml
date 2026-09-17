@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      PORT: 4000
+      CORS_ORIGIN: http://frontend:3000
+      DATABASE_PATH: /data/bookmyshow.sqlite
+      JWT_SECRET: dev-secret-change-in-production
+    volumes:
+      - booking_data:/data
+    ports:
+      - "4000:4000"
+  frontend:
+    build: ./frontend
+    environment:
+      API_PROXY_URL: http://backend:4000
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+volumes:
+  booking_data:
