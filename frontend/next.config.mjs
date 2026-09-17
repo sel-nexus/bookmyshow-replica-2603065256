@@ -1,3 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { async rewrites() { return [{ source: '/api/:path*', destination: `${process.env.API_PROXY_URL ?? 'http://localhost:4000'}/api/:path*` }]; } };
+const nextConfig = {
+  async rewrites() {
+    const apiProxyUrl = process.env.API_PROXY_URL;
+    return apiProxyUrl
+      ? [{ source: '/api/:path*', destination: `${apiProxyUrl}/api/:path*` }]
+      : [];
+  },
+};
 export default nextConfig;
