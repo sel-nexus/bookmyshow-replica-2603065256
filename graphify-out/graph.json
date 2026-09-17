@@ -401,7 +401,7 @@
       "label": "ApplicationHandle",
       "file_type": "code",
       "source_file": "backend/src/app.ts",
-      "source_location": "L15",
+      "source_location": "L16",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
@@ -412,7 +412,7 @@
       "label": "createApp()",
       "file_type": "code",
       "source_file": "backend/src/app.ts",
-      "source_location": "L21",
+      "source_location": "L23",
       "_callable": true,
       "_origin": "ast",
       "community": 0
@@ -832,7 +832,7 @@
       "label": "handles",
       "file_type": "code",
       "source_file": "backend/tests/auth.test.ts",
-      "source_location": "L5",
+      "source_location": "L6",
       "_origin": "ast",
       "community": 0
     },
@@ -841,7 +841,7 @@
       "label": "app()",
       "file_type": "code",
       "source_file": "backend/tests/auth.test.ts",
-      "source_location": "L6",
+      "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
       "community": 0
@@ -855,11 +855,11 @@
       "_origin": "ast"
     },
     {
-      "id": "backend_tests_booking_test_hs",
-      "label": "hs",
+      "id": "backend_tests_booking_test_handles",
+      "label": "handles",
       "file_type": "code",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L6",
       "_origin": "ast"
     },
     {
@@ -867,7 +867,7 @@
       "label": "app()",
       "file_type": "code",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L8",
       "_callable": true,
       "_origin": "ast"
     },
@@ -876,8 +876,16 @@
       "label": "token()",
       "file_type": "code",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L14",
       "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_tests_booking_test_validbooking",
+      "label": "validBooking",
+      "file_type": "code",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L20",
       "_origin": "ast"
     },
     {
@@ -889,11 +897,11 @@
       "_origin": "ast"
     },
     {
-      "id": "backend_tests_catalog_test_hs",
-      "label": "hs",
+      "id": "backend_tests_catalog_test_handles",
+      "label": "handles",
       "file_type": "code",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L6",
       "_origin": "ast"
     },
     {
@@ -901,7 +909,16 @@
       "label": "app()",
       "file_type": "code",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_tests_catalog_test_token",
+      "label": "token()",
+      "file_type": "code",
+      "source_file": "backend/tests/catalog.test.ts",
+      "source_location": "L14",
       "_callable": true,
       "_origin": "ast"
     },
@@ -914,11 +931,11 @@
       "_origin": "ast"
     },
     {
-      "id": "backend_tests_integration_test_hs",
-      "label": "hs",
+      "id": "backend_tests_integration_test_handles",
+      "label": "handles",
       "file_type": "code",
       "source_file": "backend/tests/integration.test.ts",
-      "source_location": "L1",
+      "source_location": "L6",
       "_origin": "ast"
     },
     {
@@ -1638,11 +1655,49 @@
       "community": 7
     },
     {
+      "id": "frontend_src_features_booking_bookingflow_stage",
+      "label": "Stage",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_bookingflow_bookingconfirmation",
+      "label": "BookingConfirmation",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_bookingflow_loadstoredbooking",
+      "label": "loadStoredBooking()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_bookingflow_readresponse",
+      "label": "readResponse()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_booking_bookingflow_bookingflow",
       "label": "BookingFlow()",
       "file_type": "code",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L10",
+      "source_location": "L43",
       "_callable": true,
       "_origin": "ast",
       "community": 7
@@ -1656,6 +1711,15 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_features_booking_catalogstep_test_catalogharness",
+      "label": "CatalogHarness()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/CatalogStep.test.tsx",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_booking_catalogstep",
       "label": "CatalogStep.tsx",
       "file_type": "code",
@@ -1664,12 +1728,30 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_features_booking_catalogstep_catalogstepprops",
+      "label": "CatalogStepProps",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/CatalogStep.tsx",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_booking_catalogstep_catalogstep",
       "label": "CatalogStep()",
       "file_type": "code",
       "source_file": "frontend/src/features/booking/CatalogStep.tsx",
-      "source_location": "L2",
+      "source_location": "L12",
       "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_confirmationstep_test",
+      "label": "ConfirmationStep.test.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.test.tsx",
+      "source_location": "L1",
       "_origin": "ast"
     },
     {
@@ -1681,11 +1763,31 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_features_booking_confirmationstep_bookingconfirmation",
+      "label": "BookingConfirmation",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_confirmationstep_confirmationstepprops",
+      "label": "ConfirmationStepProps",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_booking_confirmationstep_confirmationstep",
       "label": "ConfirmationStep()",
       "file_type": "code",
       "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
-      "source_location": "L1",
+      "source_location": "L15",
       "_callable": true,
       "_origin": "ast"
     },
@@ -1698,6 +1800,15 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_features_booking_paymentstep_test_paymentharness",
+      "label": "PaymentHarness()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/PaymentStep.test.tsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_booking_paymentstep",
       "label": "PaymentStep.tsx",
       "file_type": "code",
@@ -1706,11 +1817,31 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_features_booking_paymentstep_paymentmethod",
+      "label": "PaymentMethod",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/PaymentStep.tsx",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_paymentstep_paymentstepprops",
+      "label": "PaymentStepProps",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/PaymentStep.tsx",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_booking_paymentstep_paymentstep",
       "label": "PaymentStep()",
       "file_type": "code",
       "source_file": "frontend/src/features/booking/PaymentStep.tsx",
-      "source_location": "L1",
+      "source_location": "L10",
       "_callable": true,
       "_origin": "ast"
     },
@@ -1723,11 +1854,37 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_features_booking_seatstep_seatstepprops",
+      "label": "SeatStepProps",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/SeatStep.tsx",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_seatstep_presetseats",
+      "label": "presetSeats",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/SeatStep.tsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_seatstep_seatlabels",
+      "label": "seatLabels",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/SeatStep.tsx",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_features_booking_seatstep_seatstep",
       "label": "SeatStep()",
       "file_type": "code",
       "source_file": "frontend/src/features/booking/SeatStep.tsx",
-      "source_location": "L2",
+      "source_location": "L11",
       "_callable": true,
       "_origin": "ast"
     },
@@ -2487,7 +2644,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2498,7 +2655,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2509,7 +2666,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2520,7 +2677,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2531,7 +2688,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2542,7 +2699,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2553,7 +2710,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2564,7 +2721,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2575,7 +2732,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2586,7 +2743,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2597,7 +2754,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2608,7 +2765,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2619,7 +2776,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2630,7 +2787,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2641,7 +2798,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2652,7 +2809,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L10",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2663,7 +2820,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2674,7 +2831,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2685,7 +2842,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2696,7 +2853,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2707,7 +2864,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2717,7 +2874,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2727,7 +2884,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L21",
+      "source_location": "L23",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3454,7 +3611,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/auth.test.ts",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3464,7 +3621,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/auth.test.ts",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3475,7 +3632,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3486,7 +3643,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3497,7 +3654,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3508,17 +3665,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
       "source": "backend_tests_booking_test",
-      "target": "backend_tests_booking_test_hs",
+      "target": "backend_tests_booking_test_handles",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3528,7 +3685,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3538,7 +3695,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test",
+      "target": "backend_tests_booking_test_validbooking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3549,7 +3716,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3560,7 +3727,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3571,7 +3738,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3582,17 +3749,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
       "source": "backend_tests_catalog_test",
-      "target": "backend_tests_catalog_test_hs",
+      "target": "backend_tests_catalog_test_handles",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3602,7 +3769,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_catalog_test",
+      "target": "backend_tests_catalog_test_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/catalog.test.ts",
+      "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3613,7 +3790,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/integration.test.ts",
-      "source_location": "L1",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3624,7 +3801,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/integration.test.ts",
-      "source_location": "L1",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3635,7 +3812,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/integration.test.ts",
-      "source_location": "L1",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3646,17 +3823,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/integration.test.ts",
-      "source_location": "L1",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
       "source": "backend_tests_integration_test",
-      "target": "backend_tests_integration_test_hs",
+      "target": "backend_tests_integration_test_handles",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/integration.test.ts",
-      "source_location": "L1",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4391,7 +4568,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4402,7 +4579,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4413,7 +4590,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4424,7 +4601,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4435,51 +4612,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_seatstep",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
       "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_seatstep_seatstep",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_paymentstep",
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_paymentstep_paymentstep",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4490,7 +4623,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L7",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4501,13 +4634,35 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_paymentstep",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast"
     },
     {
       "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_booking_types",
+      "target": "frontend_src_features_booking_paymentstep_paymentstep",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_seatstep",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -4518,12 +4673,34 @@
     },
     {
       "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_booking_types_movie",
+      "target": "frontend_src_features_booking_seatstep_seatstep",
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
       "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_booking_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_booking_types_movie",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4534,7 +4711,47 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L8",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_bookingflow_stage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_bookingflow_bookingconfirmation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_bookingflow_loadstoredbooking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_bookingflow_readresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4544,7 +4761,40 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L10",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow_bookingflow",
+      "target": "frontend_src_features_booking_bookingflow_loadstoredbooking",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_catalogstep_test",
+      "target": "frontend_src_features_booking_catalogstep",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/CatalogStep.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_catalogstep_test",
+      "target": "frontend_src_features_booking_catalogstep_catalogstep",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/CatalogStep.test.tsx",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4555,7 +4805,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/CatalogStep.test.tsx",
-      "source_location": "L1",
+      "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4566,7 +4816,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/CatalogStep.test.tsx",
-      "source_location": "L1",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_catalogstep_test",
+      "target": "frontend_src_features_booking_catalogstep_test_catalogharness",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/CatalogStep.test.tsx",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4577,7 +4837,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/CatalogStep.tsx",
-      "source_location": "L1",
+      "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4588,7 +4848,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/CatalogStep.tsx",
-      "source_location": "L1",
+      "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4599,7 +4859,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/CatalogStep.tsx",
-      "source_location": "L1",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_catalogstep",
+      "target": "frontend_src_features_booking_catalogstep_catalogstepprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/CatalogStep.tsx",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4609,7 +4879,49 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/CatalogStep.tsx",
-      "source_location": "L2",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_confirmationstep_test",
+      "target": "frontend_src_features_booking_confirmationstep",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_confirmationstep_test",
+      "target": "frontend_src_features_booking_confirmationstep_confirmationstep",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.test.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_confirmationstep",
+      "target": "frontend_src_features_booking_confirmationstep_bookingconfirmation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_confirmationstep",
+      "target": "frontend_src_features_booking_confirmationstep_confirmationstepprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4619,7 +4931,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
-      "source_location": "L1",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4630,7 +4942,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/PaymentStep.test.tsx",
-      "source_location": "L1",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4641,7 +4953,37 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/PaymentStep.test.tsx",
-      "source_location": "L1",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_paymentstep_test",
+      "target": "frontend_src_features_booking_paymentstep_test_paymentharness",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/PaymentStep.test.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_paymentstep",
+      "target": "frontend_src_features_booking_paymentstep_paymentmethod",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/PaymentStep.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_paymentstep",
+      "target": "frontend_src_features_booking_paymentstep_paymentstepprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/PaymentStep.tsx",
+      "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4651,7 +4993,37 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/PaymentStep.tsx",
-      "source_location": "L1",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_seatstep",
+      "target": "frontend_src_features_booking_seatstep_seatstepprops",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/SeatStep.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_seatstep",
+      "target": "frontend_src_features_booking_seatstep_presetseats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/SeatStep.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_seatstep",
+      "target": "frontend_src_features_booking_seatstep_seatlabels",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/SeatStep.tsx",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4661,7 +5033,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/SeatStep.tsx",
-      "source_location": "L2",
+      "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5024,7 +5396,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/auth.test.ts",
-      "source_location": "L6",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5035,7 +5407,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/auth.test.ts",
-      "source_location": "L6",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5046,7 +5418,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5057,7 +5429,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/booking.test.ts",
-      "source_location": "L1",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5068,7 +5440,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5079,7 +5451,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
-      "source_location": "L1",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5095,6 +5467,28 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_features_booking_catalogstep_catalogstepprops",
+      "target": "frontend_src_features_booking_booking_types_movie",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/CatalogStep.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_catalogstep_catalogstepprops",
+      "target": "frontend_src_features_booking_booking_types_theatre",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/CatalogStep.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_app_createapp",
       "target": "backend_src_db_database_createdatabase",
       "relation": "calls",
@@ -5102,7 +5496,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L22",
+      "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5114,19 +5508,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L27",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_app_createapp",
-      "target": "backend_src_features_catalog_catalog_routes_createcatalogrouter",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "backend/src/app.ts",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5138,7 +5520,19 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L29",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app_createapp",
+      "target": "backend_src_features_catalog_catalog_routes_createcatalogrouter",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/app.ts",
+      "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5150,7 +5544,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L29",
+      "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5162,7 +5556,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L36",
+      "source_location": "L38",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5268,10 +5662,10 @@
     }
   ],
   "metadata": {
-    "built_at": "2026-09-17T03:21:49.826976+00:00",
+    "built_at": "2026-09-17T03:49:32.644555+00:00",
     "version": "graph_update-v1",
     "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000417092603065256\\developer",
     "force": true,
-    "files_scanned": 43
+    "files_scanned": 44
   }
 }
