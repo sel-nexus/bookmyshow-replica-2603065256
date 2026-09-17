@@ -1,0 +1,2 @@
+import React from 'react'; import type { Movie,Theatre } from './booking.types';
+/** Renders API-supplied movies and theatres for selection. */ export function CatalogStep({movies,theatres,onMovie,onTheatre}:{movies:Movie[];theatres:Theatre[];onMovie:(m:Movie)=>void;onTheatre:(t:Theatre)=>void}):JSX.Element{return <section><h2>Now showing</h2>{movies.map(m=><button key={m.id} onClick={()=>onMovie(m)}>{m.title}</button>)}<h2>Choose a theatre</h2>{theatres.map(t=><button key={t.id} onClick={()=>onTheatre(t)}>{t.name}</button>)}</section>}

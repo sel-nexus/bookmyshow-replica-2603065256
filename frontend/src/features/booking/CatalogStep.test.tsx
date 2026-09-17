@@ -1,0 +1,1 @@
+import React from 'react';import '@testing-library/jest-dom/vitest';import {render,screen,fireEvent} from '@testing-library/react';import {it,expect} from 'vitest';import {SeatStep} from './SeatStep';it('selects preset seats',()=>{render(<SeatStep onSelect={()=>{}}/>);fireEvent.click(screen.getByText('Select Seats'));expect(screen.getByText(/Rs. 450/)).toBeInTheDocument();});
