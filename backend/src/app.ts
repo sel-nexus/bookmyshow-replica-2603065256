@@ -1,3 +1,4 @@
+import type Database from 'better-sqlite3';
 import cors from 'cors';
 import express, { type Express, type NextFunction, type Request, type Response } from 'express';
 import type { AppConfig } from './config';
@@ -14,6 +15,7 @@ import { errorHandler, HttpError } from './middleware/error-handler';
 /** Represents a configured application with a cleanup hook for tests. */
 export interface ApplicationHandle {
   app: Express;
+  database: Database.Database;
   close: () => void;
 }
 
@@ -25,7 +27,7 @@ export function createApp(config: AppConfig): ApplicationHandle {
   app.use(express.json());
   app.get('/api/health', (_request, response) => response.status(200).json({ status: 'ok' }));
   app.use('/api/auth', createAuthRouter(new AuthService(connection.database, config)));
-  app.use('/api', createCatalogRouter(new CatalogService(connection.database)));
+  app.use('/api', authenticate(config), createCatalogRouter(new CatalogService(connection.database)));
   app.use('/api', authenticate(config), createBookingRouter(new BookingService(connection.database)));
   app.use((_request, _response, next) => next(new HttpError(404, 'Route not found.')));
   app.use((error: Error & { statusCode?: number }, _request: Request, response: Response, _next: NextFunction) => {
@@ -35,5 +37,5 @@ export function createApp(config: AppConfig): ApplicationHandle {
     }
     errorHandler(error, _request, response, _next);
   });
-  return { app, close: connection.close };
+  return { app, database: connection.database, close: connection.close };
 }

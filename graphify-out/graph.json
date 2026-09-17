@@ -401,7 +401,7 @@
       "label": "ApplicationHandle",
       "file_type": "code",
       "source_file": "backend/src/app.ts",
-      "source_location": "L12",
+      "source_location": "L15",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
@@ -412,7 +412,7 @@
       "label": "createApp()",
       "file_type": "code",
       "source_file": "backend/src/app.ts",
-      "source_location": "L18",
+      "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
       "community": 0
@@ -594,6 +594,67 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0
+    },
+    {
+      "id": "backend_src_features_bookings_booking_routes",
+      "label": "booking.routes.ts",
+      "file_type": "code",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_features_bookings_booking_routes_schema",
+      "label": "schema",
+      "file_type": "code",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_features_bookings_booking_routes_createbookingrouter",
+      "label": "createBookingRouter()",
+      "file_type": "code",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_features_bookings_booking_service",
+      "label": "booking.service.ts",
+      "file_type": "code",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_features_bookings_booking_service_bookingservice",
+      "label": "BookingService",
+      "file_type": "code",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L2",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_features_bookings_booking_service_bookingservice_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L2",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_features_bookings_booking_service_bookingservice_create",
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L2",
+      "_callable": true,
+      "_origin": "ast"
     },
     {
       "id": "backend_src_features_catalog_catalog_routes",
@@ -786,6 +847,40 @@
       "community": 0
     },
     {
+      "id": "backend_tests_booking_test",
+      "label": "booking.test.ts",
+      "file_type": "code",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_tests_booking_test_hs",
+      "label": "hs",
+      "file_type": "code",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_tests_booking_test_app",
+      "label": "app()",
+      "file_type": "code",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_tests_booking_test_token",
+      "label": "token()",
+      "file_type": "code",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "backend_tests_catalog_test",
       "label": "catalog.test.ts",
       "file_type": "code",
@@ -808,6 +903,22 @@
       "source_file": "backend/tests/catalog.test.ts",
       "source_location": "L1",
       "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_tests_integration_test",
+      "label": "integration.test.ts",
+      "file_type": "code",
+      "source_file": "backend/tests/integration.test.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_tests_integration_test_hs",
+      "label": "hs",
+      "file_type": "code",
+      "source_file": "backend/tests/integration.test.ts",
+      "source_location": "L1",
       "_origin": "ast"
     },
     {
@@ -1029,11 +1140,35 @@
       "community": 16
     },
     {
+      "id": "frontend_e2e_booking_spec",
+      "label": "booking.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/booking.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_e2e_catalog_seat_spec",
       "label": "catalog-seat.spec.ts",
       "file_type": "code",
       "source_file": "frontend/e2e/catalog-seat.spec.ts",
       "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_next_env_d",
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "frontend/next-env.d.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_next_env_d_rationale_4",
+      "label": "NOTE: This file should not be edited",
+      "file_type": "rationale",
+      "source_file": "frontend/next-env.d.ts",
+      "source_location": "L4",
       "_origin": "ast"
     },
     {
@@ -1440,6 +1575,14 @@
       "community": 1
     },
     {
+      "id": "frontend_playwright_config",
+      "label": "playwright.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/playwright.config.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_postcss_config",
       "label": "postcss.config.mjs",
       "file_type": "code",
@@ -1499,7 +1642,7 @@
       "label": "BookingFlow()",
       "file_type": "code",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L8",
+      "source_location": "L10",
       "_callable": true,
       "_origin": "ast",
       "community": 7
@@ -1526,6 +1669,48 @@
       "file_type": "code",
       "source_file": "frontend/src/features/booking/CatalogStep.tsx",
       "source_location": "L2",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_confirmationstep",
+      "label": "ConfirmationStep.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_confirmationstep_confirmationstep",
+      "label": "ConfirmationStep()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
+      "source_location": "L1",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_paymentstep_test",
+      "label": "PaymentStep.test.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/PaymentStep.test.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_paymentstep",
+      "label": "PaymentStep.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/PaymentStep.tsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_features_booking_paymentstep_paymentstep",
+      "label": "PaymentStep()",
+      "file_type": "code",
+      "source_file": "frontend/src/features/booking/PaymentStep.tsx",
+      "source_location": "L1",
       "_callable": true,
       "_origin": "ast"
     },
@@ -2429,7 +2614,7 @@
     },
     {
       "source": "backend_src_app",
-      "target": "backend_src_middleware_error_handler",
+      "target": "backend_src_features_bookings_booking_routes",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2440,12 +2625,78 @@
     },
     {
       "source": "backend_src_app",
-      "target": "backend_src_middleware_error_handler_errorhandler",
+      "target": "backend_src_features_bookings_booking_routes_createbookingrouter",
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
       "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app",
+      "target": "backend_src_features_bookings_booking_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app",
+      "target": "backend_src_features_bookings_booking_service_bookingservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app",
+      "target": "backend_src_middleware_authenticate",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app",
+      "target": "backend_src_middleware_authenticate_authenticate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app",
+      "target": "backend_src_middleware_error_handler",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app",
+      "target": "backend_src_middleware_error_handler_errorhandler",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.ts",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2456,7 +2707,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L9",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2466,7 +2717,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L12",
+      "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2476,7 +2727,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.ts",
-      "source_location": "L18",
+      "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -2738,6 +2989,144 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/features/auth/auth.service.ts",
       "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_middleware_authenticate",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_middleware_authenticate_authenticatedrequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_middleware_error_handler",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_middleware_error_handler_httperror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_features_bookings_booking_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_features_bookings_booking_service_bookingservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_features_bookings_booking_routes_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes",
+      "target": "backend_src_features_bookings_booking_routes_createbookingrouter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_service",
+      "target": "backend_src_middleware_error_handler",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_service",
+      "target": "backend_src_middleware_error_handler_httperror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_service",
+      "target": "backend_src_features_bookings_booking_service_bookingservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_service_bookingservice",
+      "target": "backend_src_features_bookings_booking_service_bookingservice_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_service_bookingservice",
+      "target": "backend_src_features_bookings_booking_service_bookingservice_create",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/features/bookings/booking.service.ts",
+      "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3080,6 +3469,80 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_tests_booking_test",
+      "target": "backend_src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test",
+      "target": "backend_src_app_createapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test",
+      "target": "backend_src_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test",
+      "target": "backend_src_config_getconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test",
+      "target": "backend_tests_booking_test_hs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test",
+      "target": "backend_tests_booking_test_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test",
+      "target": "backend_tests_booking_test_token",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_tests_catalog_test",
       "target": "backend_src_app",
       "relation": "imports_from",
@@ -3139,6 +3602,60 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/tests/catalog.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_integration_test",
+      "target": "backend_src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/integration.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_integration_test",
+      "target": "backend_src_app_createapp",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/integration.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_integration_test",
+      "target": "backend_src_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/integration.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_integration_test",
+      "target": "backend_src_config_getconfig",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/integration.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_integration_test",
+      "target": "backend_tests_integration_test_hs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/integration.test.ts",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast"
@@ -3366,6 +3883,16 @@
       "confidence": "EXTRACTED",
       "source_file": "frontend/app/page.tsx",
       "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_next_env_d_rationale_4",
+      "target": "frontend_next_env_d",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/next-env.d.ts",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3936,7 +4463,7 @@
     },
     {
       "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_booking_types",
+      "target": "frontend_src_features_booking_paymentstep",
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3947,12 +4474,56 @@
     },
     {
       "source": "frontend_src_features_booking_bookingflow",
-      "target": "frontend_src_features_booking_booking_types_movie",
+      "target": "frontend_src_features_booking_paymentstep_paymentstep",
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
       "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_confirmationstep",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_confirmationstep_confirmationstep",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_booking_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_bookingflow",
+      "target": "frontend_src_features_booking_booking_types_movie",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/BookingFlow.tsx",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3963,7 +4534,7 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -3973,7 +4544,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/BookingFlow.tsx",
-      "source_location": "L8",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4039,6 +4610,48 @@
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/features/booking/CatalogStep.tsx",
       "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_confirmationstep",
+      "target": "frontend_src_features_booking_confirmationstep_confirmationstep",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/ConfirmationStep.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_paymentstep_test",
+      "target": "frontend_src_features_booking_paymentstep",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/PaymentStep.test.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_paymentstep_test",
+      "target": "frontend_src_features_booking_paymentstep_paymentstep",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/PaymentStep.test.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_features_booking_paymentstep",
+      "target": "frontend_src_features_booking_paymentstep_paymentstep",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/features/booking/PaymentStep.tsx",
+      "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4427,6 +5040,28 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_tests_booking_test_app",
+      "target": "backend_src_app_createapp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_tests_booking_test_app",
+      "target": "backend_src_config_getconfig",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/tests/booking.test.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_tests_catalog_test_app",
       "target": "backend_src_app_createapp",
       "relation": "calls",
@@ -4467,7 +5102,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L19",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4479,7 +5114,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L24",
+      "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4491,7 +5126,31 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L25",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app_createapp",
+      "target": "backend_src_middleware_authenticate_authenticate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/app.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_app_createapp",
+      "target": "backend_src_features_bookings_booking_routes_createbookingrouter",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/app.ts",
+      "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4503,7 +5162,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/app.ts",
-      "source_location": "L32",
+      "source_location": "L36",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4528,6 +5187,18 @@
       "confidence_score": 1.0,
       "source_file": "backend/src/features/auth/auth.routes.ts",
       "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_features_bookings_booking_routes_createbookingrouter",
+      "target": "backend_src_features_bookings_booking_service_bookingservice_create",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/features/bookings/booking.routes.ts",
+      "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4578,8 +5249,8 @@
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
-      "_src": "backend_src_features_auth_auth_service_authservice_constructor",
-      "_tgt": "backend_src_config_appconfig"
+      "_src": "backend_src_config_appconfig",
+      "_tgt": "backend_src_features_auth_auth_service_authservice_constructor"
     },
     {
       "source": "backend_src_middleware_authenticate_authenticatedrequest",
@@ -4597,10 +5268,10 @@
     }
   ],
   "metadata": {
-    "built_at": "2026-09-17T03:19:04.257736+00:00",
+    "built_at": "2026-09-17T03:21:49.826976+00:00",
     "version": "graph_update-v1",
     "codebase_root": "C:\\artifacts-v2\\T0132PcJVCRTV000417092603065256\\developer",
     "force": true,
-    "files_scanned": 33
+    "files_scanned": 43
   }
 }
