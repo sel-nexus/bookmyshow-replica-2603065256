@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.next/
+coverage/
+*.sqlite
+*.sqlite-journal
+.env
+.env.local
+.env.*.local
+.engine/
+PLAN.md
+todos.yaml
+developer_metadata.json
+publish_manifest.yaml
+test_report.yaml
+graphify-out/cache/
+graphify-out/cost.json
